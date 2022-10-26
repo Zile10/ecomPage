@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/mario_face.png" type="image/x-icon">
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>E-commerce Site</title>
+</head>
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark d-flex align-content-center sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/mario_face.png" alt="" class="logo d-inline">
+        <p class="logo-name fw-bold d-none d-sm-inline">Mannequins-R-Us</p>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+
+  <main>
+    <section id="mannequins">
+      <div class="container-fluid align-content-center">
+        <h2 class="text-light text-capitalize">mannequins</h2>
+        <div class=" row d-flex justify-content-around align-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/mannequins/wooden_mannequin.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Miniature Mannequin (Wooden)</h5>
+              <p class="card-text">
+                This miniature mannequin, makes for a great desktop toy.
+              </p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">
+                View More
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="./img/mannequins/wooden_mannequin.png" class="card-img-top h-img" alt="...">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus libero amet eos tenetur repellat aliquam error impedit quae saepe praesentium minus consectetur dolor quisquam, obcaecati distinctio id architecto, autem excepturi.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="./img/mannequins/mannequin_torso.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mannequin Torso (Male)</h5>
+              <p class="card-text">
+                A plastic store mannequin of the male torso. Size: medium
+              </p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">
+                View More
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="./img/mannequins/mannequin_torso.png" class="card-img-top h-img" alt="...">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus libero amet eos tenetur repellat aliquam error impedit quae saepe praesentium minus consectetur dolor quisquam, obcaecati distinctio id architecto, autem excepturi.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="/img/mannequins/store-mannequin.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mannequin Torso (Female)</h5>
+              <p class="card-text">
+                A generic store mannequin of the female torso. Size: Small
+              </p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">
+                View More
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="/img/mannequins/store-mannequin.png" class="card-img-top h-img" alt="...">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus libero amet eos tenetur repellat aliquam error impedit quae saepe praesentium minus consectetur dolor quisquam, obcaecati distinctio id architecto, autem excepturi.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-auto bg-primary">
+    <div class="container">
+      
+    </div>
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
